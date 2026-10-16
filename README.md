@@ -1,2 +1,1 @@
-Meu Contracheque v9: importação Papa Hora, caixa cinza, subtítulo vermelho, ícone Android com nomes versionados e turno administrativo 07:00–17:00.
-Para ícones já instalados, Android pode exigir remover o atalho/PWA e instalar novamente.
+Meu Contracheque PWA v10. Atualização da seleção de escala, extras automáticas 5x1 e plantão administrativo, subtítulo por: Cleibson. Publique todos os arquivos no mesmo diretório do GitHub Pages. Faça backup antes de substituir.
