@@ -1,1 +1,1 @@
-Meu Contracheque PWA v10. Atualização da seleção de escala, extras automáticas 5x1 e plantão administrativo, subtítulo por: Cleibson. Publique todos os arquivos no mesmo diretório do GitHub Pages. Faça backup antes de substituir.
+Meu Contracheque v13: correção de IDs camelCase na configuração inicial, seleção visual, sem plantão e persistência de configuração.
