@@ -1,1 +1,1 @@
-Meu Contracheque v17: formatação monetária automática no salário-base (configuração inicial e ajustes). INSS continua calculado sobre o bruto, antes de descontos; adiantamento = 50% do salário-base.
+Meu Contracheque v18 — atualização GitHub Pages. Substitua os arquivos no mesmo repositório e mantenha o endereço. Os dados existentes usam a mesma chave localStorage. As regras 4x2 diurnas são 2h (50% ou 100% em domingos/feriados nacionais detectados). Feriados locais e convenções coletivas devem ser conferidos.
