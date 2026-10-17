@@ -1,5 +1,1 @@
-Meu Contracheque v16
-- Marcadores distintos de almoço, horas extras e falta no calendário.
-- Nome opcional na configuração inicial e ajustes.
-- Contracheque estimado em formato tabular similar ao modelo, sem empresa ou dados não informados.
-- Exportação em PNG e PDF e compartilhamento quando suportado.
+Meu Contracheque v17: formatação monetária automática no salário-base (configuração inicial e ajustes). INSS continua calculado sobre o bruto, antes de descontos; adiantamento = 50% do salário-base.
