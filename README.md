@@ -1,9 +1,5 @@
-Meu Contracheque v25 — atualização de usabilidade
+Meu Contracheque v27
 
-Base: v24. Mantidos os IDs, eventos, fórmulas financeiras e chave localStorage do app.
+Atualização visual: caixa principal destaca o pagamento previsto para o dia 05; total mensal e adiantamento ficam abaixo. Cartões e formulários compactados, calendário com cores mais vivas e contraste melhorado, navegação inferior mais discreta.
 
-Melhorias: organização da tela, informações da escala com horas 50%/100% no dia selecionado, grupos de ajustes avançados recolhíveis, foco e estados acessíveis, instruções contextuais, ações rápidas mais evidentes, espaçamentos e contraste.
-
-Não modifica cálculos de horas, INSS ou DSR.
-
-Publicação: substituir todos os arquivos no mesmo endereço, fazer backup antes. Testar no navegador Android e iOS.
+Preserva dados locais, registros, regras de cálculo e demais funções da v26. Faça backup antes de substituir arquivos.
