@@ -1,5 +1,7 @@
-Meu Contracheque v30
+Meu Contracheque v31
 
-Resumo: removidos cartões de bruto e descontos; refeições ocultas quando zero; horas extras sem legenda longa; cabeçalho simplificado; botão de horas extras muda para remover e fica vermelho quando há registro manual.
-
-Dados existentes preservados no armazenamento local. Faça backup antes de atualizar.
+Atualização do layout e correção do cache offline.
+Publique TODOS os arquivos do ZIP na raiz do mesmo endereço.
+Confira “v31” ao lado de “por: Cleibson” no topo.
+Se aparecer versão antiga, feche o app, abra o endereço no navegador e recarregue.
+Faça backup antes da atualização.

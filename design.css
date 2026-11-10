@@ -127,3 +127,9 @@ main{max-width:760px} .card{box-shadow:none}
 #activityExtra.isDone:hover,#extraToday.removeExtraState:hover{background:#8c3a4a!important}
 .tile[hidden]{display:none!important}
 .betaSubtitle{display:none!important}
+
+/* v31 hardening: hide empty meals and legacy beta notices */
+.hero .tile:has(#meals):has(strong:empty){display:none!important}
+.hero .tile[hidden]{display:none!important}
+#gross,#deduct{display:none!important}
+.appVersion{font-size:10px;color:#83bdb1}
