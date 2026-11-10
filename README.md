@@ -1,1 +1,1 @@
-Meu Contracheque v35 — correção do carregamento de estilos. CSS incorporado ao HTML para evitar a versão visual antiga em cache. Preserva registros locais e cálculos. Publique todos os arquivos na mesma pasta do site.
+Meu Contracheque v36. Substitua todos os arquivos no mesmo endereço. Mantém os dados locais. Alterações: cabeçalho reduzido, ajuda ?, horas extras sem caixas, botões de navegação distintos, exportação somente de imagem.
