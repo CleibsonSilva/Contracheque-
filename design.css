@@ -147,3 +147,33 @@ main{max-width:760px} .card{box-shadow:none}
 .hero button:focus-visible,.activityButtons button:focus-visible{outline:3px solid #9cf5d8!important;outline-offset:2px}
 .hero button.primary{background:#2bc4a2!important}
 .hero .tile strong{font-variant-numeric:tabular-nums}
+
+/* v34: focused salary hero, visually distinct actionable controls, compact overtime */
+.hero{background:linear-gradient(145deg,#102b3b 0%,#102637 55%,#0c2531 100%)!important;border:1px solid #345361!important;box-shadow:0 8px 24px rgba(0,0,0,.12)!important}
+.hero .heroIntro{margin-bottom:9px!important;color:#e9f3f6}
+.hero #periodLabel{color:#a9c2cd!important;font-size:12px!important}
+.hero .big{color:#5de1b7!important;text-shadow:0 1px 8px rgba(56,206,161,.12);font-weight:800!important;margin:7px 0 14px!important}
+.hero #paySplit{background:transparent!important;border:0!important;border-left:0!important;border-top:1px solid #31505d!important;border-bottom:1px solid #31505d!important;border-radius:0!important;margin:0 0 10px!important;padding:9px 1px!important;box-shadow:none!important;color:#b8ccd5!important}
+.hero #paySplit strong{color:#edf8f7!important}
+.hero #heroSheet{background:linear-gradient(115deg,#26b998,#35d0aa)!important;color:#062d28!important;box-shadow:0 3px 0 #14745e,0 7px 14px rgba(0,0,0,.12)!important;border:1px solid #61dfbe!important}
+.hero .heroIntro button,.hero .actions button{background:linear-gradient(135deg,#24475a,#1a3849)!important;border:1px solid #426676!important;color:#e7f6f6!important;box-shadow:0 2px 0 #091d27!important}
+.hero .actions button{font-size:13px!important}
+.hero .grid{display:block!important;margin-top:9px!important}
+.hero .infoMetric{background:transparent!important;border:0!important;border-top:1px solid #31505d!important;border-radius:0!important;padding:10px 0 0!important;margin:0!important}
+.hero .infoMetric #overtime{display:none!important}
+.hero .metricHeading{display:block;font-size:12px;color:#a9c2cd;margin:0 0 7px}
+.hero .extraBreakdown{display:grid!important;grid-template-columns:1fr 1fr;gap:8px!important;margin:0!important}
+.hero .extraBreakdown span{display:flex!important;align-items:baseline!important;justify-content:space-between!important;gap:5px!important;padding:8px 10px!important;border-radius:9px!important;background:#1b3947!important;border:1px solid #315665!important;min-width:0!important;font-size:12px!important}
+.hero .extraBreakdown span small{font-size:12px!important;color:#aac5ce!important}
+.hero .extraBreakdown span b{font-size:16px!important;white-space:nowrap!important;color:#f2fbfa!important;font-variant-numeric:tabular-nums}
+.hero .mealInline{margin:8px 0 0!important;font-size:12px!important;color:#a9c2cd!important}
+.hero .nightTile{background:#132f3d!important;border:1px solid #31505d!important;margin-top:7px!important}
+.hero button{min-height:43px!important}
+#registerCard .activityButtons button{border:1px solid #3b8f85!important;background:linear-gradient(140deg,#247b6c,#1b615b)!important;box-shadow:0 3px 0 #0d3b35!important}
+#registerCard .activityButtons button:last-child{background:linear-gradient(140deg,#326e91,#225472)!important;border-color:#487d9a!important;box-shadow:0 3px 0 #14374c!important}
+#registerCard .activityButtons button.isDone{background:linear-gradient(140deg,#8b4553,#703440)!important;border-color:#b66b79!important}
+#registerCard .activityButtons button:active{transform:translateY(2px)!important;box-shadow:0 1px 0 #0d3b35!important}
+.optionalCard>summary{background:#193548!important;box-shadow:inset 0 -1px 0 #294859;transition:background .15s}
+.optionalCard>summary:active{background:#28526a!important}
+.optionalCard>summary:after{font-size:20px;color:#63d7b4!important}
+@media(max-width:600px){.hero{padding:13px!important}.hero .extraBreakdown span{padding:7px 9px!important}.hero .big{font-size:clamp(34px,9vw,46px)!important}}
