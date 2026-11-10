@@ -1,1 +1,1 @@
-Meu Contracheque v28: registro de almoço e horas extras por uma única data, formulários e cartões compactos. Faça backup antes de atualizar.
+Meu Contracheque v29 — registro de atividade redesenhado, cartões de indicadores sem altura vazia, navegação por vários meses anteriores. Mantém os cálculos e dados locais da versão anterior. Faça backup antes de atualizar.

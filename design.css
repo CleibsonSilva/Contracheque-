@@ -84,45 +84,40 @@ main{max-width:760px} .card{box-shadow:none}
 @media(max-width:600px){main{padding:9px 6px 100px!important}.top{padding:0 5px;margin:2px 0 9px}.top h1{font-size:21px}.card{margin:8px 0!important;padding:13px;border-radius:15px}.tabs{left:6px!important;right:6px!important}.hero{padding:14px!important}.hero .big{font-size:clamp(33px,8vw,44px)!important}.hero .grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero .tile{min-height:60px}.calendar{gap:3px}.day{min-height:58px!important}.day small{font-size:9px!important}.settingsInner .grid>div{min-width:0}}
 @media(max-width:370px){.splitRow{font-size:12px}.splitRow strong{font-size:12px}.calendar{gap:2px}.day{font-size:12px!important}}
 
-/* v28: compact editorial rhythm and single-date registration */
-.card{margin:7px 0!important;padding:12px!important;box-shadow:none!important}
-.card h2{margin:0 0 8px;font-size:17px;line-height:1.3}.card p{line-height:1.4}
-.hero{padding:12px!important}.heroIntro{margin-bottom:6px!important}
-.hero .big{margin:5px 0 9px!important;line-height:1.08!important}
-.hero #paySplit{padding:9px 11px!important;margin:5px 0 8px!important}
-.hero .grid{gap:7px!important;margin-top:8px!important}
-.hero .tile{padding:8px!important;min-height:0!important}
-.hero .tile strong{font-size:16px!important;line-height:1.2!important;overflow-wrap:anywhere}
-.hero .tile strong#overtime{font-size:13px!important;line-height:1.3!important}
-.hero #heroSheet{min-height:44px!important;margin:5px 0!important}
-.optionalCard{padding:0!important}.optionalCard>summary{min-height:48px!important;padding:11px 13px!important}
-.optionalCard>:not(summary){margin-left:12px!important;margin-right:12px!important}
-#registerCard{padding:12px!important;border-top:2px solid #30c9a2}
-#registerCard .sectionHeading{margin-bottom:9px}
-#registerCard .registerDate{display:flex;align-items:center;gap:10px;margin-bottom:9px}
-#registerCard .registerDate label{margin:0;flex:0 0 38px;font-size:13px}
-#registerCard .registerDate input{flex:1;min-width:0;min-height:44px;padding:8px 10px}
-#registerCard .registerButtons{display:grid;grid-template-columns:1fr 1fr;gap:8px}
-#registerCard .registerButtons button{min-height:46px;font-size:13px;padding:9px 7px}
-#registerCard .registerButtons #mealToday{background:#217b6c;color:#fff;border:1px solid #389e8b}
-#registerCard .registerButtons #extraToday{background:#285a78;color:#fff;border:1px solid #3d7b9f}
-#registerStatus{margin-top:9px;color:#bed5dc;font-size:12px;line-height:1.4}
-#quickExtra{margin-top:10px;padding:11px!important;border:1px solid #315668;background:#163343!important;border-radius:12px}
-#quickExtra .editorHead{display:flex;align-items:center;justify-content:space-between;gap:8px}
-#quickExtra .editorHead h3{margin:0;font-size:15px}
-#quickExtra .editorHead button{min-height:32px;padding:5px 11px}
-#quickExtra #quickHint{margin:5px 0 9px;font-size:12px;line-height:1.4}
-#quickExtra .quickHours{display:grid;grid-template-columns:1fr 1fr;gap:9px;margin-bottom:10px}
-#quickExtra .quickHours label{display:block;margin:0 0 4px;font-size:12px}
-#quickExtra .quickHours input{width:100%;min-height:44px;padding:8px 10px}
-#quickFeedback:empty{display:none}#quickFeedback:not(:empty){margin:8px 0 0;padding:8px 10px;font-size:12px}
-#ajustes .card label{margin-top:9px;margin-bottom:4px}
-#ajustes .card input,#ajustes .card select{min-height:44px}
-#ajustes .card .grid{gap:8px 10px}
-#ajustes .card small,#ajustes .card .muted{line-height:1.4}
-.settingsDisclosure{min-height:49px!important;padding:10px 12px!important}
-.settingsInner{padding:0 12px 12px!important}
-.calendarActions{padding:10px!important}.calendarActions .actions{gap:6px}
-.calendarActions .actions button{min-height:43px;padding:7px 4px;font-size:12px}
-.supportCard p{margin:6px 0 10px}
-@media(max-width:600px){main{padding:8px 6px 100px!important}.hero .big{font-size:clamp(32px,9vw,45px)!important}.top{margin-bottom:8px!important}.tabs button{min-height:44px!important}}
+
+/* v29: truly compact and aligned cards, zero blank vertical fill */
+.hero .grid{align-items:start!important;grid-auto-rows:min-content!important}
+.hero .tile{min-height:0!important;height:auto!important;align-self:start!important;padding:9px 10px!important;display:flex;flex-direction:column;gap:3px}
+.hero .tile strong{font-size:17px!important;line-height:1.25!important;margin:0!important;overflow-wrap:anywhere}
+.hero .tile small{font-size:12px!important;line-height:1.25!important}
+.hero #overtime{font-size:15px!important}
+.hero .tile:has(#meals),.hero .tile:has(#overtime){min-height:0!important}
+#registerCard{padding:13px!important;border-top:2px solid #36cba6!important}
+#legacyActivity{display:none!important}
+.activityHead{display:flex;align-items:baseline;justify-content:space-between;gap:10px;margin-bottom:10px}
+.activityHead h2{font-size:17px!important;margin:0!important;line-height:1.2}
+.activityHead span{font-size:11px;color:#a6bdc7;text-align:right}
+.activityToolbar{display:grid;grid-template-columns:42px minmax(0,1fr) 60px;align-items:end;gap:7px;margin-bottom:9px}
+.activityDate{margin:0!important;font-size:11px!important;line-height:1.2;color:#aac2cb}
+.activityDate input{margin-top:3px;height:42px;min-height:42px;padding:6px 9px;font-size:15px!important;border-radius:10px}
+.activityNav{height:42px!important;min-height:42px!important;padding:4px!important;font-size:14px!important;background:#213c4c!important;color:#e5f6f5!important}
+.activityNav:first-child{font-size:26px!important}
+.activityButtons{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-bottom:8px}
+.activityButtons button{height:46px!important;min-height:46px!important;padding:8px!important;border-radius:10px!important;font-size:14px!important;background:#216e61!important;color:white!important}
+.activityButtons button:last-child{background:#285b78!important}
+.activityButtons button.isDone{background:#1c4a42!important;border-color:#37b89c!important}
+.activitySummary{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 12px;font-size:12px;line-height:1.3;color:#c5d9df;padding:3px 1px}
+.activitySummary small{font-size:10px;color:#80c8b1}
+#activityEditor:not(.hidden){margin-top:10px;padding-top:10px;border-top:1px solid #2e5260}
+#activityEditor #quickExtra{padding:11px!important;margin:0!important;border-radius:11px;background:#173242!important}
+#activityEditor #quickExtraTitle{font-size:14px!important;line-height:1.25;margin:0 0 5px!important}
+#activityEditor #quickHint{font-size:12px!important;line-height:1.3;margin:0 0 8px!important;color:#b7ccd3}
+#activityEditor .grid{display:grid!important;grid-template-columns:repeat(2,minmax(0,1fr))!important;gap:9px!important}
+#activityEditor label{font-size:12px!important;margin:0 0 4px!important}
+#activityEditor input{height:42px!important;min-height:42px!important;padding:6px 10px!important;font-size:17px!important}
+#activityEditor .actions{display:flex!important;gap:7px!important;margin-top:10px!important;flex-wrap:wrap!important}
+#activityEditor .actions button{flex:1 1 auto!important;width:auto!important;min-height:40px!important;height:auto!important;padding:7px 10px!important;font-size:12px!important}
+#activityEditor #quickRemove:not(.hidden){flex-basis:100%!important}
+.activityMessage{font-size:12px!important;padding:6px 0!important;margin:4px 0 0!important;color:#8ae2bf!important}
+.hero .actions button{min-width:0!important}
+@media(max-width:600px){.hero .grid{gap:6px!important}.hero .tile{padding:8px 9px!important}.hero .tile strong{font-size:16px!important}.hero .tile small{font-size:11px!important}.activityHead span{font-size:10px}}
