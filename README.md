@@ -1,1 +1,5 @@
-Meu Contracheque v29 — registro de atividade redesenhado, cartões de indicadores sem altura vazia, navegação por vários meses anteriores. Mantém os cálculos e dados locais da versão anterior. Faça backup antes de atualizar.
+Meu Contracheque v30
+
+Resumo: removidos cartões de bruto e descontos; refeições ocultas quando zero; horas extras sem legenda longa; cabeçalho simplificado; botão de horas extras muda para remover e fica vermelho quando há registro manual.
+
+Dados existentes preservados no armazenamento local. Faça backup antes de atualizar.

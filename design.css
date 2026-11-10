@@ -121,3 +121,9 @@ main{max-width:760px} .card{box-shadow:none}
 .activityMessage{font-size:12px!important;padding:6px 0!important;margin:4px 0 0!important;color:#8ae2bf!important}
 .hero .actions button{min-width:0!important}
 @media(max-width:600px){.hero .grid{gap:6px!important}.hero .tile{padding:8px 9px!important}.hero .tile strong{font-size:16px!important}.hero .tile small{font-size:11px!important}.activityHead span{font-size:10px}}
+
+/* v30: action state and conditional metric layout */
+#activityExtra.isDone,#extraToday.removeExtraState{background:#7a3442!important;border-color:#b65a69!important;color:#fff!important}
+#activityExtra.isDone:hover,#extraToday.removeExtraState:hover{background:#8c3a4a!important}
+.tile[hidden]{display:none!important}
+.betaSubtitle{display:none!important}
