@@ -1,24 +1,13 @@
-Meu Contracheque v21 — atualização visual
+Meu Contracheque PWA v23
 
-Interface clara com destaque para a previsão, navegação inferior no celular,
-calendário com cores suaves, campos mais legíveis e ferramentas de dados em Ajustes.
+Correções:
+- Ajuste automático estimado: 0,8 minuto por hora extra (50% e 100%), em vez de 1,35. Configurações antigas de 1,35 ou 4 migram para 0,8.
+- Contribuição anual só é descontada quando o usuário marcar explicitamente "Cobrar contribuição nesta folha" nas configurações do mês selecionado.
+- Valores de meses distintos não compartilham a opção de cobrança.
+- Backup passa a incluir a seleção mensal de contribuição.
+- Texto do DSR atualizado para refletir o percentual configurável.
 
-As funções, cálculos, chave de armazenamento (meuContrachequeV3), registros,
-importações, backups, Pix e compartilhamento da v20 foram preservados.
-A versão mantém os parâmetros e limitações de estimativa da v20.
+Atenção: valores são estimativas, não substituem folha real. Faça backup antes de atualizar.
 
-COMO ATUALIZAR
-1. Exporte seu backup em Ajustes antes de atualizar.
-2. Extraia este ZIP e publique TODOS os arquivos juntos no mesmo endereço HTTPS
-   do aplicativo anterior. Inclua design.css e o novo sw.js.
-3. Reabra o aplicativo conectado à internet para receber o novo visual.
-   Mantendo o mesmo endereço e navegador, os dados locais continuam disponíveis.
 
-Abrir index.html diretamente permite visualizar o app, mas instalação e modo
-PWA offline exigem hospedagem HTTPS (ou localhost).
-
-VALIDAÇÃO
-Configuração, registro de almoço e persistência, calendário, salvar ajustes,
-prévia da folha e navegação testados em Chromium. Sem erros de JavaScript.
-Layout conferido em larguras de 360, 390, 768 e 1280 pixels.
-Scripts originais e IDs comparados com a v20 e preservados.
+Versão 24 — revisão visual dark-first e melhoria de legibilidade, espaçamentos, botões, hierarquia financeira, calendário, contraste e navegação. Mantida a lógica financeira e a estrutura de dados da v23. Não substitui testes de usabilidade reais.
