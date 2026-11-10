@@ -133,3 +133,17 @@ main{max-width:760px} .card{box-shadow:none}
 .hero .tile[hidden]{display:none!important}
 #gross,#deduct{display:none!important}
 .appVersion{font-size:10px;color:#83bdb1}
+
+/* v33: interactive surfaces vs read-only data */
+.hero .infoMetric,.hero .tile{background:#102d35!important;border:1px solid #365760!important;box-shadow:none!important;cursor:default!important}
+.hero .infoMetric{grid-column:1/-1;padding:12px 14px!important}
+.extraBreakdown{display:flex;gap:8px;margin-top:9px;flex-wrap:wrap}
+.extraBreakdown span{background:#1d424b;border:1px solid #3c6871;border-radius:8px;padding:6px 10px;color:#c7e0e4;font-size:13px}
+.extraBreakdown b{color:white}
+.mealInline{font-size:13px;color:#b8d0d3;margin:9px 2px 0!important}
+.mealInline[hidden]{display:none!important}
+.hero button,.activityButtons button,#activityDatePrev,#activityDateToday{cursor:pointer!important;box-shadow:0 2px 0 rgba(0,0,0,.25)!important;transition:filter .15s,transform .15s!important}
+.hero button:active,.activityButtons button:active{transform:scale(.985)}
+.hero button:focus-visible,.activityButtons button:focus-visible{outline:3px solid #9cf5d8!important;outline-offset:2px}
+.hero button.primary{background:#2bc4a2!important}
+.hero .tile strong{font-variant-numeric:tabular-nums}

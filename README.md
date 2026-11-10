@@ -1,1 +1,1 @@
-Meu Contracheque v32 — correção urgente da caixa principal. Corrigida ocultação indevida do painel de pagamento. Publique todos os arquivos do ZIP. Faça backup dos dados antes de atualizar.
+Meu Contracheque v33: distinção visual entre botões e indicadores, refeições em texto discreto, detalhamento de horas extras 50% e 100%. Preserva registros existentes.\n
