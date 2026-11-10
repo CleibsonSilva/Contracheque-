@@ -1,2 +1,1 @@
-Meu Contracheque v33: distinção visual entre botões e indicadores, refeições em texto discreto, detalhamento de horas extras 50% e 100%. Preserva registros existentes.\n
-Versão 34: resumo salarial com destaque seletivo, botões visualmente distintos e horas extras compactas (50%/100%).
+Meu Contracheque v35 — correção do carregamento de estilos. CSS incorporado ao HTML para evitar a versão visual antiga em cache. Preserva registros locais e cálculos. Publique todos os arquivos na mesma pasta do site.
