@@ -1,1 +1,1 @@
-Meu Contracheque v36. Substitua todos os arquivos no mesmo endereço. Mantém os dados locais. Alterações: cabeçalho reduzido, ajuda ?, horas extras sem caixas, botões de navegação distintos, exportação somente de imagem.
+Meu Contracheque v38. Substitua todos os arquivos no mesmo endereço. Mantém os dados locais. Alterações: cabeçalho reduzido, ajuda ?, horas extras sem caixas, botões de navegação distintos, exportação somente de imagem.
