@@ -1,1 +1,1 @@
-Meu Contracheque v40. Alterações: extras automáticas também em dias úteis do administrativo (e finais de semana de plantão); valor principal = próximo pagamento (dia 05), troca para a nova folha no dia 08; aviso de data de pagamento; folha em andamento exibida abaixo.
+Meu Contracheque v42. Alterações: hora extra e almoço editados direto na aba Escala (botões + / − e atalhos de horas); totais de horas extras em cada barra de folha; campo para anotar o valor real recebido e comparar com a estimativa.
