@@ -1,1 +1,1 @@
-Meu Contracheque v39. Alterações: extras automáticas só em dias de plantão; extra manual substitui a automática; botão Salvar configurações flutuante; históricos de horas extras e almoços agrupados por folha (21 a 20).
+Meu Contracheque v40. Alterações: extras automáticas também em dias úteis do administrativo (e finais de semana de plantão); valor principal = próximo pagamento (dia 05), troca para a nova folha no dia 08; aviso de data de pagamento; folha em andamento exibida abaixo.
