@@ -1,1 +1,1 @@
-Meu Contracheque v38. Substitua todos os arquivos no mesmo endereço. Mantém os dados locais. Alterações: cabeçalho reduzido, ajuda ?, horas extras sem caixas, botões de navegação distintos, exportação somente de imagem.
+Meu Contracheque v39. Alterações: extras automáticas só em dias de plantão; extra manual substitui a automática; botão Salvar configurações flutuante; históricos de horas extras e almoços agrupados por folha (21 a 20).
