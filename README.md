@@ -1,1 +1,7 @@
-Meu Contracheque v42. Alterações: hora extra e almoço editados direto na aba Escala (botões + / − e atalhos de horas); totais de horas extras em cada barra de folha; campo para anotar o valor real recebido e comparar com a estimativa.
+# Meu Contracheque v43
+
+Redesenho completo da interface. O motor de cálculo não mudou: os valores são idênticos aos da v42
+(verificado em 8 cenários de escala e regras, 1.834 valores comparados por cenário).
+
+Substitua todos os arquivos no mesmo endereço. Seus dados no navegador são mantidos.
+Antes de atualizar, exporte um backup em Ajustes > Dados e backup.
